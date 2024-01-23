@@ -4,7 +4,7 @@
 	"description": "Declarative HTML parser for TypeScript",
 	"main": "dist/index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"build": "swc ./src -d ./dist"
 	},
 	"keywords": [],
 	"author": "Abiria",
