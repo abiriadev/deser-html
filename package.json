@@ -4,7 +4,7 @@
 	"description": "Declarative HTML parser for TypeScript",
 	"main": "dist/index.js",
 	"scripts": {
-		"build": "swc ./src -d ./dist"
+		"build": "swc . --ignore node_modules -d ./dist"
 	},
 	"keywords": [],
 	"author": "Abiria",
